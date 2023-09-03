@@ -51,6 +51,10 @@ nav {
     background: #111827; 
 }
 
+.left-column-hero {
+    padding-top: 100px;
+}
+
 .row-hero-content {
     margin-top: 100px;
 }
@@ -101,8 +105,8 @@ nav {
 
 .hero-image {
     border-radius: 29px;
-    width: 427px;
-    height: 427px;
+    width: 477px;
+    height: 477px;
     object-fit: cover; 
 }
 
