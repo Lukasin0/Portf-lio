@@ -118,7 +118,7 @@ nav {
 }
 
 .row-aboutme {
-    padding-top: 100px;
+    padding: 100px 0;
 }
 .yellow-text {
     color: #EAB308;
@@ -159,3 +159,121 @@ nav {
     right: 50px;
 }
 /* O NAS */
+
+
+/* MOJE SUŽBY */
+
+.section-services {
+    padding: 100px 0;
+    background-color: #111827;
+}
+
+.section-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6B7280;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.service-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0;
+    gap: 30px;
+}
+
+.service-box {
+    width: 286px;
+    height: 278px;
+    background-color: #020617;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.service-icon {
+    margin-bottom: 5px;
+}
+
+.service-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #F3F4F6;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.service-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6B7280;
+    text-align: center;
+    margin: 10px 10px;
+}
+/* MOJE SUŽBY */
+
+/* MY SKILLS */
+.skills-section {
+    background-color: #020617;
+    padding: 30px 0;
+}
+
+.header-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.white-text {
+    color: #D1D5DB;
+}
+
+.yellow-text {
+    color: #EAB308;
+}
+
+.skill {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.skill-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #D1D5DB;
+}
+
+.skill-bg {
+    stroke: #D1D5DB;
+    fill: none;
+    stroke-width: 5;
+}
+
+.skill-fg {
+    fill: none;
+    stroke: #EAB308;
+    stroke-width: 5;
+    stroke-dasharray: 314; /* predefinovaná hodnota, ktorej bude možno treba prispôsobiť */
+    stroke-dashoffset: 314;
+    transition: stroke-dashoffset 0.5s;
+}
+
+.skill:hover .skill-fg {
+    stroke-dashoffset: 0; /* Toto by ste mohli upraviť podľa potreby */
+}
+
+/* MY SKILLS */
