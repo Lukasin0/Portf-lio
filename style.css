@@ -408,10 +408,94 @@ nav {
         
         .toggle-projects:hover {
             font-weight: bold;
-            font-size: 24px;
-            color: white;
+            font-size: 20px;
+            color: #EAB308; 
         }
         
 
 
 /* MY PORFOLIO */
+
+/* KONTAKT */
+.contact-section {
+    background: #191D28;
+    padding: 50px 0; 
+}
+
+.header-text .white-text {
+    color: white;
+}
+
+.header-text .yellow-text {
+    color: #EAB308;
+}
+
+.description-text {
+    color: #9CA3AF;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.info-text p {
+    color: #F3F4F6;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.name-input {
+    width: 350px;
+    height: 63px;
+    background: #1F2937;
+    color: #F3F4F6;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.message-input {
+    width: 540px;
+    height: 166px;
+    background: #1F2937;
+    color: #F3F4F6;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-btn {
+    display: flex;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    background: #EAB308;
+    color: #000;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-text p {
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.info-link {
+    color: #EAB308;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.info-link:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* KONTAKT */
