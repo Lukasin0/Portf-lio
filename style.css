@@ -9,9 +9,27 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
+    background-color: #111827; 
     height: 70px;
     padding: 0 20px;
+}
+
+.navbar {
+    position: fixed; 
+    top: 0;           
+    left: 0;          
+    width: 100%;     
+    z-index: 1000;    
+    background-color: rgba(17, 24, 39, 0.8);
+}
+
+.navbar {
+    transition: all 0.3s ease;
+}
+
+body.scrolled .navbar {
+    background-color: rgba(17, 24, 39, 0.6);
+    color: #ffffff;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -21,12 +39,23 @@ nav {
 .logo img {
     height: 50px;
     width: auto;
+    color: #D1D5DB;
 }
+
+.navbar-brand img:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
 
 .nav-link {
     list-style-type: none;
     display: flex;
     margin-right: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FACC15;
 }
 
 
@@ -38,11 +67,10 @@ nav {
     text-transform: uppercase;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.nav-item.active .nav-link {
     color: #FACC15;
-    font-weight: bold;
-    font-size: 18px;
 }
+
 
 /* NAVBAR */
 
@@ -128,6 +156,13 @@ nav {
     height: 477px;
     object-fit: cover; 
 }
+
+.welcome-text, .name-text, .description-text, .contact-btn, .hero-image, .scroll-icon {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
 
 /* HERO IMG */
 
@@ -467,9 +502,7 @@ nav {
 }
 
 .contact-btn {
-    display: flex;
     padding: 16px 20px;
-    gap: 10px;
     border-radius: 4px;
     background: #EAB308;
     color: #000;

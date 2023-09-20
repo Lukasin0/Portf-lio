@@ -17,22 +17,23 @@
 <!-- navbar start -->
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="img/logo LM.png" alt="Logo LM" width="100">
+        <a class="navbar-brand" href="#home">
+            <img src="img/logo.png" alt="Logo LM" width="100">
         </a>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">HOME</a> 
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about-me-section">O MNE</a>
+                    <a class="nav-link" href="#about-me-section">O MNE</a> 
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#sluzby">SLUŽBY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skusenosti">SKÚSENOSTI</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">PORTFOLIO</a>
@@ -47,17 +48,18 @@
 <!-- navbar end -->
 
 
+
 <!-- HERO SECTION -->
-<section class="hero-section py-5">
+<section class="hero-section py-5" id="home">
     <div class="container">
         <div class="row row-hero-content">
-            <!-- LEFT COLUMN TEXT -->
             <div class="col-md-6 left-column-hero">
-                <p class="welcome-text mb-3">Hello, Welcome</p>
-                <h1 class="name-text mb-3">Ja som Lukáš Maršál</h1>
-                <p class="description-text mb-3">Som front-end developer a vášnivý dizajnér. Verím, že dobrý dizajn je viac ako len vizuálny zážitok, je to o komunikácii a budovaní mostov medzi nápadom a jeho realizáciou.</p>
-                <button class="contact-btn">Kontaktujte ma</button>
+                <p class="welcome-text mb-3" data-text="Hello, Welcome"></p>
+                <h1 class="name-text mb-3" data-text="Ja som Lukáš Maršál"></h1>
+                <p class="description-text mb-3" data-text="Som front-end developer a vášnivý dizajnér. Verím, že dobrý dizajn je viac ako len vizuálny zážitok, je to o komunikácii a budovaní mostov medzi nápadom a jeho realizáciou."></p>
+                <a href="#kontakt" class="contact-btn btn">Kontaktujte ma</a>
             </div>
+            
             <!-- RIGHT COLUMN HERO IMG -->
             <div class="col-md-6 d-flex justify-content-center align-items-center">
                 <img src="img/IMG_0509.JPG" alt="Hero" class="hero-image">
@@ -82,7 +84,7 @@
             <!-- Left column with image and frame -->
             <div class="col-lg-6 left-column-about d-flex flex-column align-items-center">
                 <div class="image-frame mb-4"><img src="img/frame.png" alt="Frame"></div>
-                <div><img src="img/IMG_0509.JPG" alt="Frame" class="hero-image hero-absolut"></div>
+                <div><img src="img/IMG_01.jpg" alt="Frame" class="hero-image hero-absolut"></div>
             </div>
 
             <!-- Right column with text -->
@@ -94,7 +96,7 @@
                 <p class="description-text mt-4">
                     Toto je len návrh a môžete si ho ďalej upraviť podľa vlastného uváženia. Ak máte iné predstavy o tom, ako by ste chceli túto vetu prepísať, dajte mi prosím vedieť a ja vám rád pomôžem.
                 </p>
-                <button class="contact-btn">Kontaktujte ma</button>
+                <a href="#kontakt" class="contact-btn btn">Kontaktujte ma</a>
             </div>
         </div>
     </div>
@@ -134,7 +136,7 @@
 <!-- SLUŽBY SECTION -->
 
 <!-- PORTFOLIO SECTION -->
-<section class="portfolio-section">
+<section class="portfolio-section" id="portfolio">
     <div class="container text-center">
         <h2 class="header-text"><span class="white-text">Moje </span><span class="yellow-text">portfólio</span></h2>
         <p class="portfolio-description">
@@ -242,7 +244,7 @@
 
 <!-- Kontakt SECTION -->
 
-<section id="kontakt" class="contact-section">
+<section id="kontakt" class="contact-section" id="kontakt">
     <div class="container">
         <!-- Nadpis -->
         <div class="text-center mb-5">
@@ -272,7 +274,8 @@
 <!-- Kontakt SECTION -->
 
 
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/js.js"></script>
 </body>
 </html>
